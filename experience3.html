@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Experience</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="experienceStyle.css" />
+    <link rel="stylesheet" href="common.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="top-bar">
+        <p id="dark">Dark</p>
+        <p id="light">Light</p>
+        <p id="fun">Fun</p>
+        <h1 id="title">Experience</h1>
+      </div>
+      <div id="navigation">
+        <table>
+          <tr>
+            <td class="link"><a href="index.html">Home</a></td>
+            <td width="300"></td>
+            <td class="link">
+              <a href="experience3.html" class="current-page">Experience</a>
+            </td>
+            <td width="300"></td>
+            <td class="link"><a href="toolbox2.html">My Toolbox</a></td>
+            <td width="300"></td>
+            <td class="link"><a href="gallery2.html">Gallery</a></td>
+          </tr>
+        </table>
+      </div>
+      <div class="grid-container">
+        <div class="work-experience">
+          <h2>Work Experience</h2>
+          <div class="job">
+            <div class="job-title">
+              <strong style="color: darkturquoise"
+                >Royal Automotive - Shop Technician 2020/Present</strong
+              >
+            </div>
+            <div class="job-description" style="color: darkturquoise">
+              Brakes Change, Tire Change, Suspension Work, Minor Diagnostics
+            </div>
+          </div>
+          <div class="job">
+            <div class="job-title">
+              <strong style="color: darkturquoise"
+                >Alisar Investments - Construction Laborer 2018/Present</strong
+              >
+            </div>
+            <div class="job-description" style="color: darkturquoise">
+              Lawn Maintenance, Sod Replacement, Retaining Walls, Weed Control
+            </div>
+          </div>
+          <div class="job">
+            <div class="job-title">
+              <strong style="color: darkturquoise"
+                >Dairy Queen - Line Cook 2021/2022</strong
+              >
+            </div>
+            <div class="job-description" style="color: darkturquoise">
+              Prepare Ingredients, Cooking, Maintain Cleanliness,
+              Opening/Closing
+            </div>
+          </div>
+          <div class="job">
+            <div class="job-title">
+              <strong style="color: darkturquoise"
+                >Loblows Superstore - Cashier 2020/2021</strong
+              >
+            </div>
+            <div class="job-description" style="color: darkturquoise">
+              Stock Inventory, Customer Service, Cashier
+            </div>
+          </div>
+        </div>
+        <div class="skills">
+          <h2>Skills</h2>
+          <div class="skill-list">
+            <p>Time Management</p>
+            <p>Bilingual</p>
+            <p>Problem Solver</p>
+            <p>Customer Service</p>
+            <p>Attention To Detail</p>
+            <p>Team Work</p>
+          </div>
+        </div>
+        <div class="image">
+          <img
+            src="overallsMuhab.png"
+            alt="Muhab in overalls on the phone."
+            width="500"
+            height="300"
+          />
+        </div>
+        <div class="form">
+          <h2>Fill out information if intrested in hiring!</h2>
+          <form>
+            <label for="fname" style="color: darkturquoise">Full Name:</label
+            ><br />
+            <input
+              type="text"
+              id="fname"
+              name="fullName"
+              style="color: darkturquoise"
+            /><br /><br />
+
+            <label for="lname" style="color: darkturquoise"
+              >Company/Organizaion Name:</label
+            ><br />
+            <input
+              type="text"
+              id="cName"
+              name="cName"
+              style="color: darkturquoise"
+            /><br /><br />
+
+            <label for="phone" style="color: darkturquoise">Phone:</label><br />
+            <input
+              style="color: darkturquoise"
+              type="number"
+              id="phone"
+              name="phone"
+              placeholder="(XXX) XXX-XXXX"
+            /><br /><br />
+
+            <label for="email" style="color: darkturquoise">Email:</label><br />
+            <input
+              type="email"
+              id="email"
+              name="email"
+              style="color: darkturquoise"
+            /><br /><br />
+
+            <label for="message" style="color: darkturquoise"
+              >Job Discription:</label
+            ><br />
+            <textarea
+              id="job-description"
+              name="job-description"
+              rows="4"
+              cols="50"
+              style="color: darkturquoise"
+            ></textarea
+            ><br /><br />
+
+            <input
+              type="submit"
+              value="Submit"
+              id="submit-button"
+              style="color: darkturquoise"
+            />
+            <div id="message-panel"></div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="common.js"></script>
+  <script src="experience.js"></script>
+</html>

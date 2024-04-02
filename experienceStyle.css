@@ -1,0 +1,43 @@
+.container {
+  text-align: center;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    "work-experience skills"
+    "image form";
+  grid-gap: 20px;
+}
+.current-page {
+  color: red;
+}
+.image img {
+  border-radius: 0.75rem;
+}
+.work-experience,
+.skills {
+  padding: 1px;
+  color: darkturquoise;
+}
+
+.job,
+.job-title,
+.job-description {
+  grid-area: work-experience;
+}
+.form {
+  grid-area: form;
+}
+
+.skills {
+  grid-area: skills;
+}
+
+.image {
+  grid-area: image;
+}
+
+a {
+  color: darkturquoise;
+}

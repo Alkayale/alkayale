@@ -1,0 +1,41 @@
+* {
+  background-color: hsl(222.2 84% 4.9%);
+  color: hsl(210 40% 98%);
+}
+
+#navigation {
+  margin-left: 140px;
+}
+
+#navigation .link a:hover {
+  color: red;
+}
+
+h2,
+h1 {
+  color: darkturquoise;
+}
+
+p {
+  color: brown;
+}
+
+.top-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+#dark,
+#light,
+#fun {
+  margin-right: 10px;
+}
+
+#title {
+  flex: 1;
+  text-align: center;
+  margin: 0;
+  margin-right: 110px;
+}

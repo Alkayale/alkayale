@@ -1,0 +1,57 @@
+div[data-role="pic-of-muhab"] {
+  padding: 10px;
+}
+div[data-role="pic-of-muhab"] img {
+  display: block;
+  border-radius: 0.75rem;
+  margin-left: 300px;
+}
+#email {
+  padding-left: 300px;
+}
+
+#phone-number {
+  padding-left: 100px;
+}
+
+#noti {
+  text-align: center;
+}
+
+td[id="music"] {
+  border: 5px solid purple;
+}
+
+.current-page {
+  color: red;
+}
+
+#music {
+  padding-left: 100px;
+}
+
+h2 {
+  text-align: center;
+}
+div > p {
+  text-align: center;
+}
+.page-title ~ h1 {
+  text-align: center;
+}
+
+#title-of-page + h1 {
+  text-align: center;
+}
+
+#title-of-page {
+  text-align: center;
+}
+
+#noti:hover {
+  cursor: pointer;
+}
+
+a {
+  color: darkturquoise;
+}
