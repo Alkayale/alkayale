@@ -3,17 +3,11 @@ function validateForm() {
   submitButton.addEventListener("click", function validate(event) {
     event.preventDefault();
     const message = document.getElementById("message-panel");
-    const emailField = document.getElementById("email").value;
-    const nameField = document.getElementById("fname").value;
-    const cNameField = document.getElementById("cName").value;
-    const phoneField = document.getElementById("phone").value;
-    const jDiscField = document.getElementById("job-description").value;
-
-    const email = emailField.value.trim();
-    const name = nameField.value;
-    const cName = cNameField.value;
-    const phone = phoneField.value;
-    const jDisc = jDiscField.value;
+    const email = document.getElementById("email").value.trim();
+    const name = document.getElementById("fname").value;
+    const cName = document.getElementById("cName").value;
+    const phone = document.getElementById("phone").value;
+    const jDisc = document.getElementById("job-description").value;
 
     if (!email || !cName || !phone || !jDisc || !name) {
       message.style.backgroundColor = "red";
@@ -31,13 +25,13 @@ function validateForm() {
       message.style.backgroundColor = "green";
       message.style.color = "white";
       message.innerHTML = "Thank you for the opportunity!";
-    }
 
-    emailField.value = "";
-    nameField.value = "";
-    cNameField.value = "";
-    phoneField.value = "";
-    jDiscField.value = "";
+      document.getElementById("email").value = "";
+      document.getElementById("fname").value = "";
+      document.getElementById("cName").value = "";
+      document.getElementById("phone").value = "";
+      document.getElementById("job-description").value = "";
+    }
   });
 }
 validateForm();
